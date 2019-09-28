@@ -1,3 +1,4 @@
+// dispatch to add items
 export const ADD_ITEM = "ADD_ITEM";
 export const addItem = feature => {
   return {
@@ -6,6 +7,7 @@ export const addItem = feature => {
   };
 };
 
+// dispatch to remove items
 export const REMOVE_ITEM = "REMOVE_ITEM";
 export const removeItem = feature => {
   return {
